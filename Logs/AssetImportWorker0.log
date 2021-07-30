@@ -626,3 +626,15 @@ Received Import Request.
 Start importing Assets/Scripts/NormalDoor.cs using Guid(e937f83f4d6c70047a07223327c291e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0eec61164125cbe931c2d4c2ad9079e') in 0.194132 seconds
   Import took 0.228125 seconds .
 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 920.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 48.5 MB.
+System memory in use after: 48.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2264.
+Total: 157.853300 ms (FindLiveObjects: 0.388800 ms CreateObjectMapping: 0.116500 ms MarkObjects: 157.120600 ms  DeleteObjects: 0.224700 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

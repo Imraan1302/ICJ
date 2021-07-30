@@ -6,7 +6,7 @@ public class DoorLook : MonoBehaviour
 {
     public AudioSource DeathSound;
 
-    private void OnTriggerStay(Collider scare)
+    private void OnTriggerEnter(Collider scare)
     {
         if (scare.gameObject.CompareTag("Door"))
         {

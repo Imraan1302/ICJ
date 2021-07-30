@@ -15,11 +15,11 @@ D:/GitHub/Intercampus Jam/ICJ
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55319
+53342
 Successfully changed project path to: D:/GitHub/Intercampus Jam/ICJ
 D:/GitHub/Intercampus Jam/ICJ
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 44.83 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 48.88 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,76 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56480
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56716
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.004385 seconds.
+Registered in 0.005449 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 41.86 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 45.13 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.546 seconds
+- Completed reload, in  2.995 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005793 seconds.
+Registered in 0.006160 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.495 seconds
+- Completed reload, in  1.720 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
 Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1762 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 81.2 MB.
-System memory in use after: 81.2 MB.
+Unloading 1763 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.3 MB.
+System memory in use after: 81.3 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2197.
-Total: 3.945600 ms (FindLiveObjects: 0.185700 ms CreateObjectMapping: 0.060500 ms MarkObjects: 3.502300 ms  DeleteObjects: 0.195700 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Tom's Big Level Package/Tom's Big level Package.unitypackage
-  artifactKey: Guid(cae759248359b2e4dbf2c7fcf8eb3c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tom's Big Level Package/Tom's Big level Package.unitypackage using Guid(cae759248359b2e4dbf2c7fcf8eb3c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a42f27ca6b443230c861332be4743f0') in 0.041823 seconds
-  Import took 0.171697 seconds .
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2198.
+Total: 3.395400 ms (FindLiveObjects: 0.245700 ms CreateObjectMapping: 0.069900 ms MarkObjects: 2.887700 ms  DeleteObjects: 0.190200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 42.976015 seconds.
-  path: Packages/com.unity.ide.vscode
-  artifactKey: Guid(1c61a04a5b7737c4d16673d64be4194e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.ide.vscode using Guid(1c61a04a5b7737c4d16673d64be4194e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb59e90e7b94b511476370c7399373e') in 0.005749 seconds
-  Import took 0.151201 seconds .
+  path: Assets/Material/Environment
+  artifactKey: Guid(9c895dadb696bcd4580aef0a0bd641cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Environment using Guid(9c895dadb696bcd4580aef0a0bd641cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c6c60333a230e66a6b6476dd45d0369') in 0.005841 seconds
+  Import took 0.126602 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 36.057113 seconds.
-  path: Assets/Tom's Big Level Package
-  artifactKey: Guid(812c4705c60ce1c4681daa9e117cfb63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tom's Big Level Package using Guid(812c4705c60ce1c4681daa9e117cfb63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf0214b719821423d44a4c5a09089dc') in 0.003767 seconds
-  Import took 0.108189 seconds .
+  Time since last request: 0.000436 seconds.
+  path: Assets/Material
+  artifactKey: Guid(a2c5cab8e9e34574bacd5ae9eb982e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material using Guid(a2c5cab8e9e34574bacd5ae9eb982e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1360bf5352f92ae6f4b1b1a5df61c0c1') in 0.003890 seconds
+  Import took 0.007697 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 73.264173 seconds.
-  path: Assets/Material/Player Material/New Material.mat
-  artifactKey: Guid(a27f165e45c4ed34496a47e66210b2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Player Material/New Material.mat using Guid(a27f165e45c4ed34496a47e66210b2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc719e27eac91f1877636134b078bb9e') in 0.311200 seconds
-  Import took 0.317087 seconds .
+  Time since last request: 0.000482 seconds.
+  path: Assets/Material/Player Material
+  artifactKey: Guid(a91b664dbe6d3864095432345b1130aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Player Material using Guid(a91b664dbe6d3864095432345b1130aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47eba66e1f494e9e822e9e41a043fef4') in 0.003468 seconds
+  Import took 0.038696 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 127.448665 seconds.
-  path: Packages/com.unity.textmeshpro
-  artifactKey: Guid(cabaa672b0e3ee91fa7b6da4daab7970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.textmeshpro using Guid(cabaa672b0e3ee91fa7b6da4daab7970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '169a733f15e62358392572f7d3dbae7f') in 0.004932 seconds
-  Import took 0.112231 seconds .
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 44.9 MB.
+System memory in use after: 44.9 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.646851 seconds.
-  path: Packages/com.unity.settings-manager
-  artifactKey: Guid(5805641c8eed98caa841c6b791d1653a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.settings-manager using Guid(5805641c8eed98caa841c6b791d1653a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50e9be95ed818cf2207d0c8e41c094ee') in 0.104759 seconds
-  Import took 0.135946 seconds .
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2198.
+Total: 3.216100 ms (FindLiveObjects: 0.327100 ms CreateObjectMapping: 0.127200 ms MarkObjects: 2.530300 ms  DeleteObjects: 0.230000 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

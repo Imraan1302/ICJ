@@ -8,7 +8,7 @@ public class NormalDoor : MonoBehaviour
     {
         if (pass.gameObject.CompareTag("Player"))
         {
-            Debug.Log("You may proceed");
+            
             gameObject.SetActive(false);
         }
     }

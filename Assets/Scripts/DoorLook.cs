@@ -13,7 +13,7 @@ public class DoorLook : MonoBehaviour
         {
             DeathSound.Play();
             Debug.Log("Die");
-            Invoke("KillPlayer", 3f);
+            Invoke("KillPlayer", 2.3f);
         }
     }
 

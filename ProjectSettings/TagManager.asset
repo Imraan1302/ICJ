@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Normal Door
   - Death Door
+  - Key
+  - EndDoor
   layers:
   - Default
   - TransparentFX

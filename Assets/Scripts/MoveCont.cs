@@ -16,6 +16,7 @@ public class MoveCont : MonoBehaviour
     public int key;
     public bool gotKey;
     public int itemcollect;
+    public GameObject ExitLight;
 
     // Start is called before the first frame update
     void Start()
@@ -28,6 +29,7 @@ public class MoveCont : MonoBehaviour
         groundDist = 0.2f;
         gConst = -9.8f;
         sprintMod = 45f;
+        ExitLight.SetActive(false);
 
 
     }
@@ -138,13 +140,14 @@ public class MoveCont : MonoBehaviour
         {
             key++;
             gotKey = true;
+            ExitLight.SetActive(true);
             Debug.Log("We got a key!");
         }
 
         if (collision.gameObject.tag == "EndDoor" && gotKey == true)
         {
             Debug.Log("Ahhh Last Door!");
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            SceneManager.LoadScene("GameOver");
         }
     }
 }

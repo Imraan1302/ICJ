@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class DoorLook : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public AudioSource DeathSound;
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerStay(Collider scare)
     {
-        
+        if (scare.gameObject.CompareTag("Door"))
+        {
+            DeathSound.Play();
+            Debug.Log("Die");
+        }
     }
 }

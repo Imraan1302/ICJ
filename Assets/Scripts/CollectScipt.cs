@@ -6,13 +6,14 @@ using UnityEngine.UI;
 public class CollectScipt : MonoBehaviour
 {
     public int _key;
-    public bool gotKey;
+    public bool _gotKey;
     public Text keyText;
     public MoveCont moveCont;
 
     // Update is called once per frame
     void Update()
     {
+        _gotKey = moveCont.gotKey;
         //Key things... Can add stuff or remove stuff for game objects or whatever
         _key = moveCont.key;
         keyText.text = _key.ToString();
@@ -25,12 +26,12 @@ public class CollectScipt : MonoBehaviour
         if (_key <= 0)
         {
             _key = 0;
-            gotKey = false;
+            _gotKey = false;
         }
         if (_key >= 1)
         {
             _key = 1;
-            gotKey = true;
+            _gotKey = true;
         }
 
     }

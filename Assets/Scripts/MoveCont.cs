@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MoveCont : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class MoveCont : MonoBehaviour
 
     //Collection things 
     public int key;
+    public bool gotKey;
     public int itemcollect;
 
     // Start is called before the first frame update
@@ -135,7 +137,14 @@ public class MoveCont : MonoBehaviour
         if (collision.gameObject.tag == "Key")
         {
             key++;
+            gotKey = true;
             Debug.Log("We got a key!");
-        }   
+        }
+
+        if (collision.gameObject.tag == "EndDoor" && gotKey == true)
+        {
+            Debug.Log("Ahhh Last Door!");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
     }
 }

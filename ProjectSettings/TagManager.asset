@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Key
+  - EndDoor
   layers:
   - Default
   - TransparentFX

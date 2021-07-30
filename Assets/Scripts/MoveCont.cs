@@ -10,6 +10,11 @@ public class MoveCont : MonoBehaviour
     public LayerMask groundMask;
     public Vector3 downVelocity, move;
     public Rigidbody rig;
+
+    //Collection things 
+    public int key;
+    public int itemcollect;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -35,6 +40,8 @@ public class MoveCont : MonoBehaviour
         HandleMoveInputs();
         Sprint();
         Crouch();
+
+       
     }
 
     void HandleMoveInputs()
@@ -121,5 +128,14 @@ public class MoveCont : MonoBehaviour
         {
             isCrouch = false;
         }
+    }
+
+    private void OnTriggerEnter(Collider collision)
+    {
+        if (collision.gameObject.tag == "Key")
+        {
+            key++;
+            Debug.Log("We got a key!");
+        }   
     }
 }

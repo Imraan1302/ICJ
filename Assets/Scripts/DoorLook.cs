@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DoorLook : MonoBehaviour
 {
@@ -8,10 +9,16 @@ public class DoorLook : MonoBehaviour
 
     private void OnTriggerEnter(Collider scare)
     {
-        if (scare.gameObject.CompareTag("Door"))
+        if (scare.gameObject.CompareTag("Death Door"))
         {
             DeathSound.Play();
             Debug.Log("Die");
+            Invoke("KillPlayer", 3f);
         }
+    }
+
+    public void KillPlayer()
+    {
+        SceneManager.LoadScene("GameOver");
     }
 }

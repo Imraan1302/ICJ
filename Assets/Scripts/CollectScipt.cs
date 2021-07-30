@@ -32,5 +32,7 @@ public class CollectScipt : MonoBehaviour
             _key = 1;
             gotKey = true;
         }
+
     }
+
 }

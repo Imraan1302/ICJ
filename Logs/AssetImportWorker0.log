@@ -23034,3 +23034,68 @@ Received Import Request.
 Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e5726fef66cdae52c4c2a550f3ae69') in 0.020528 seconds
   Import took 0.038420 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 131.506405 seconds.
+  path: Packages/com.unity.ext.nunit
+  artifactKey: Guid(25a477c2f24db8778a4179421a32cc21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ext.nunit using Guid(25a477c2f24db8778a4179421a32cc21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de8b3f671dc9f0a57b867a67d4aae8de') in 0.007689 seconds
+  Import took 0.117094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.505853 seconds.
+  path: Packages/com.unity.ext.nunit/package.json
+  artifactKey: Guid(8143d3a8390f2c64685e3bc272bd9e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ext.nunit/package.json using Guid(8143d3a8390f2c64685e3bc272bd9e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36f449bd9ed4a92e06d659da724da745') in 0.091338 seconds
+  Import took 0.120068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.122279 seconds.
+  path: Packages/com.unity.ext.nunit/net35
+  artifactKey: Guid(a36d8b72880a8004f96ac54ce4598ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ext.nunit/net35 using Guid(a36d8b72880a8004f96ac54ce4598ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f1b27b24c11cc720585ebd98832c29') in 0.019417 seconds
+  Import took 0.024199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.688976 seconds.
+  path: Packages/com.unity.ext.nunit/CHANGELOG.md
+  artifactKey: Guid(f49bbe06ffa5ae24abe32abdab430c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ext.nunit/CHANGELOG.md using Guid(f49bbe06ffa5ae24abe32abdab430c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5def62a4e22ecceb1e5c417d41e9913') in 0.009232 seconds
+  Import took 0.045310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.601560 seconds.
+  path: Packages/com.unity.ext.nunit/LICENSE.md
+  artifactKey: Guid(f91a00d2dca52b843b2d50ccf750737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ext.nunit/LICENSE.md using Guid(f91a00d2dca52b843b2d50ccf750737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd23976e48563815fb5cf4eeac998e05a') in 0.005062 seconds
+  Import took 0.011821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000565 seconds.
+  path: Packages/com.unity.ext.nunit/LICENSE.md
+  artifactKey: Guid(f91a00d2dca52b843b2d50ccf750737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ext.nunit/LICENSE.md using Guid(f91a00d2dca52b843b2d50ccf750737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd23976e48563815fb5cf4eeac998e05a') in 0.004261 seconds
+  Import took 0.009621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.759983 seconds.
+  path: Packages/com.unity.ext.nunit/README.md
+  artifactKey: Guid(5da62a0c1c5218c4aa16b74546a7822d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ext.nunit/README.md using Guid(5da62a0c1c5218c4aa16b74546a7822d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '289d238d1e5c4ad5e45f6d5337fd84b6') in 0.005726 seconds
+  Import took 0.012441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003024 seconds.
+  path: Packages/com.unity.ext.nunit/README.md
+  artifactKey: Guid(5da62a0c1c5218c4aa16b74546a7822d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ext.nunit/README.md using Guid(5da62a0c1c5218c4aa16b74546a7822d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '289d238d1e5c4ad5e45f6d5337fd84b6') in 0.005105 seconds
+  Import took 0.010115 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

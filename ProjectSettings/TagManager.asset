@@ -4,7 +4,12 @@
 TagManager:
   serializedVersion: 2
   tags:
+<<<<<<< HEAD
   - Door
+=======
+  - Key
+  - EndDoor
+>>>>>>> c5a90064f84b8b1f91229a3bf16e865dc9062cab
   layers:
   - Default
   - TransparentFX

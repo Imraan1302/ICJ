@@ -780,3 +780,4 @@ Received Import Request.
 Start importing Assets/Scripts/Earthbound meme sound clip.prefab using Guid(6ab5fc3583d64c348abeee529f49bb62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2a9abb6ac72b36ff6aace8e425858ef') in 0.005707 seconds
   Import took 0.010651 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

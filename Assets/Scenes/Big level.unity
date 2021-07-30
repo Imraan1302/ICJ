@@ -622,6 +622,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Standard Door (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 9145695874670399875, guid: c949a7cd4c0c2b646af8a1d9a05cf889, type: 3}
+      propertyPath: m_TagString
+      value: Death Door
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c949a7cd4c0c2b646af8a1d9a05cf889, type: 3}
 --- !u!4 &227049327 stripped
@@ -644,7 +648,7 @@ GameObject:
   - component: {fileID: 232606062}
   m_Layer: 0
   m_Name: Door Frame
-  m_TagString: Untagged
+  m_TagString: Normal Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1824,6 +1828,24 @@ Transform:
   m_Father: {fileID: 1230381341}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &266732723 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9145695874670399875, guid: c949a7cd4c0c2b646af8a1d9a05cf889, type: 3}
+  m_PrefabInstance: {fileID: 967087610}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &266732724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 266732723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e723c873585a324880aa6c390bda991, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DeathSound: {fileID: 1370623921}
 --- !u!1 &361626044
 GameObject:
   m_ObjectHideFlags: 0
@@ -3328,7 +3350,7 @@ GameObject:
   - component: {fileID: 650648781}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4330,6 +4352,18 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1465738029}
+    - target: {fileID: 4169375021718136524, guid: c949a7cd4c0c2b646af8a1d9a05cf889, type: 3}
+      propertyPath: m_SelectedEdges.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4169375021718136524, guid: c949a7cd4c0c2b646af8a1d9a05cf889, type: 3}
+      propertyPath: m_SelectedFaces.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4169375021718136524, guid: c949a7cd4c0c2b646af8a1d9a05cf889, type: 3}
+      propertyPath: m_SelectedVertices.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7442112814460660494, guid: c949a7cd4c0c2b646af8a1d9a05cf889, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -5640,6 +5674,40 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &920066036 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9145695874670399875, guid: c949a7cd4c0c2b646af8a1d9a05cf889, type: 3}
+  m_PrefabInstance: {fileID: 570923327}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &920066037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 920066036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e937f83f4d6c70047a07223327c291e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &930435036 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9145695874670399875, guid: c949a7cd4c0c2b646af8a1d9a05cf889, type: 3}
+  m_PrefabInstance: {fileID: 743348770}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &930435037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930435036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e937f83f4d6c70047a07223327c291e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &939356118
 GameObject:
   m_ObjectHideFlags: 0
@@ -5684,6 +5752,41 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.4760766, y: 0.7388644, z: 1.9949646}
   m_Center: {x: 0.017752409, y: 0.13056779, z: 0.4974823}
+--- !u!1 &960923272 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9145695874670399875, guid: c949a7cd4c0c2b646af8a1d9a05cf889, type: 3}
+  m_PrefabInstance: {fileID: 1058816617498611158}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &960923277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 960923272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e937f83f4d6c70047a07223327c291e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &961123658 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9145695874670399875, guid: c949a7cd4c0c2b646af8a1d9a05cf889, type: 3}
+  m_PrefabInstance: {fileID: 1346558457}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &961123659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961123658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e723c873585a324880aa6c390bda991, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DeathSound: {fileID: 1370623921}
 --- !u!1001 &967087610
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6411,6 +6514,24 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &1103879341 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9145695874670399875, guid: c949a7cd4c0c2b646af8a1d9a05cf889, type: 3}
+  m_PrefabInstance: {fileID: 1238108372}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1103879342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1103879341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e723c873585a324880aa6c390bda991, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DeathSound: {fileID: 1370623921}
 --- !u!1 &1197434835
 GameObject:
   m_ObjectHideFlags: 0
@@ -10556,6 +10677,23 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &1478540768 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9145695874670399875, guid: c949a7cd4c0c2b646af8a1d9a05cf889, type: 3}
+  m_PrefabInstance: {fileID: 2003084353}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1478540769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1478540768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e937f83f4d6c70047a07223327c291e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1553531917
 GameObject:
   m_ObjectHideFlags: 0
@@ -11535,6 +11673,24 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &1891407858 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9145695874670399875, guid: c949a7cd4c0c2b646af8a1d9a05cf889, type: 3}
+  m_PrefabInstance: {fileID: 1831685140}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1891407859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1891407858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e723c873585a324880aa6c390bda991, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DeathSound: {fileID: 1370623921}
 --- !u!1 &1902738099
 GameObject:
   m_ObjectHideFlags: 0
@@ -36103,6 +36259,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1299372923}
+    - target: {fileID: 7487499117785671688, guid: c949a7cd4c0c2b646af8a1d9a05cf889, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7487499117785671688, guid: c949a7cd4c0c2b646af8a1d9a05cf889, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9145695874670399875, guid: c949a7cd4c0c2b646af8a1d9a05cf889, type: 3}
       propertyPath: m_Name
       value: Standard Door
